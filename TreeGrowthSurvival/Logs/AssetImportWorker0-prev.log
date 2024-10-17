@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.36f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/2024/penda/TreeGrowthSurvival
+D:/2024/penda/Year3_Experiments/TreeGrowthSurvival
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61354
-Successfully changed project path to: D:/2024/penda/TreeGrowthSurvival
-D:/2024/penda/TreeGrowthSurvival
+59154
+Successfully changed project path to: D:/2024/penda/Year3_Experiments/TreeGrowthSurvival
+D:/2024/penda/Year3_Experiments/TreeGrowthSurvival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ D:/2024/penda/TreeGrowthSurvival
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22016] Host "[IP] 192.168.3.24 [Port] 0 [Flags] 2 [Guid] 1474088724 [EditorId] 1474088724 [Version] 1048832 [Id] WindowsEditor(7,DMW6A1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26144] Host "[IP] 192.168.3.24 [Port] 0 [Flags] 2 [Guid] 4083954073 [EditorId] 4083954073 [Version] 1048832 [Id] WindowsEditor(7,DMW6A1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22016] Host "[IP] 192.168.3.24 [Port] 0 [Flags] 2 [Guid] 1474088724 [EditorId] 1474088724 [Version] 1048832 [Id] WindowsEditor(7,DMW6A1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26144] Host "[IP] 192.168.3.24 [Port] 0 [Flags] 2 [Guid] 4083954073 [EditorId] 4083954073 [Version] 1048832 [Id] WindowsEditor(7,DMW6A1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 9.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.36f1 (95a4219250e5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/2024/penda/TreeGrowthSurvival/Assets
+[Subsystems] Discovering subsystems at path D:/2024/penda/Year3_Experiments/TreeGrowthSurvival/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,51 +70,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.013907 seconds.
-- Loaded All Assemblies, in  0.397 seconds
+Registered in 0.013081 seconds.
+- Loaded All Assemblies, in  0.378 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 289 ms
+Android Extension - Scanning For ADB Devices 284 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.632 seconds
-Domain Reload Profiling: 1027ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1011ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (109ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (175ms)
-			TypeCache.Refresh (173ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (141ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (633ms)
+	FinalizeReload (635ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (577ms)
+		SetupLoadedEditorAssemblies (576ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (413ms)
+			InitializePlatformSupportModulesInManaged (406ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,8 +122,8 @@ Domain Reload Profiling: 1027ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.651 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -133,47 +133,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.688 seconds
-Domain Reload Profiling: 1470ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.616 seconds
+Domain Reload Profiling: 1265ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (65ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (472ms)
-		LoadAssemblies (324ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (689ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (616ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
+		SetupLoadedEditorAssemblies (442ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
+			InitializePlatformSupportModulesInManaged (32ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (332ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (18ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (298ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.34 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4040 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 65 unused Assets / (61.7 KB). Loaded Objects now: 4503.
-Memory consumption went from 147.4 MB to 147.4 MB.
-Total: 4.537000 ms (FindLiveObjects: 0.395200 ms CreateObjectMapping: 0.314900 ms MarkObjects: 3.683900 ms  DeleteObjects: 0.142100 ms)
+Memory consumption went from 147.4 MB to 147.3 MB.
+Total: 4.568700 ms (FindLiveObjects: 0.377000 ms CreateObjectMapping: 0.226100 ms MarkObjects: 3.819800 ms  DeleteObjects: 0.144700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,56 +190,47 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 50441.191444 seconds.
-  path: Assets/Scripts/AdjacentsData.cs
-  artifactKey: Guid(4468b6e635aa09543b160766ce8b827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AdjacentsData.cs using Guid(4468b6e635aa09543b160766ce8b827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7ab09ac94496e57d77add984397c09d9') in 0.002782 seconds
+  Time since last request: 36459.903155 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3f214a7993dbc5bca4da03e282b4d0c4') in 0.002620 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.925840 seconds.
-  path: Assets/ScriptableObjects/BarrenWastelandData.asset
-  artifactKey: Guid(624f39d7dd8b1434d88fb4b5527fdc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/BarrenWastelandData.asset using Guid(624f39d7dd8b1434d88fb4b5527fdc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'c21dbce0f59c7d29bae3562a1191333a') in 0.013160 seconds
+  Time since last request: 208.760651 seconds.
+  path: Assets/SpritesForTiles/BarrenWasteland.asset
+  artifactKey: Guid(91afa4912be938542b169c8d9e64263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpritesForTiles/BarrenWasteland.asset using Guid(91afa4912be938542b169c8d9e64263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '65731314c377c3697b034185212df5e6') in 0.107560 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/ScriptableObjects/CityData.asset
-  artifactKey: Guid(c1a702bb38618e7419591799b4d84927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/CityData.asset using Guid(c1a702bb38618e7419591799b4d84927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'e62300daddac23fbed898302cb977f1e') in 0.001405 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/SpritesForTiles/TreeGrowth2.asset
+  artifactKey: Guid(23df2062a211c554aa3ada152be864eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpritesForTiles/TreeGrowth2.asset using Guid(23df2062a211c554aa3ada152be864eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '353ea310b6494a6f61d43904371729f3') in 0.012897 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ScriptableObjects/TreeData.asset
-  artifactKey: Guid(01035ed05529bb548824f23629c5f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/TreeData.asset using Guid(01035ed05529bb548824f23629c5f360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '94587416e1914c9dbc5d501186609dc0') in 0.001267 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/SpritesForTiles/TreeGrowth1.asset
+  artifactKey: Guid(4b561bb4f37e96443811cab36dadd81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpritesForTiles/TreeGrowth1.asset using Guid(4b561bb4f37e96443811cab36dadd81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1c023a42ce17b55c342f1f0d2a7a2705') in 0.013356 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013107 seconds.
-  path: Assets/ScriptableObjects/TreeGrowthOneData.asset
-  artifactKey: Guid(441f96bb9128e1b499a387eb8108ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/TreeGrowthOneData.asset using Guid(441f96bb9128e1b499a387eb8108ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '18652df65e3d30c36fcaae37f206cdfd') in 0.001872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ScriptableObjects/TreeGrowthTwoData.asset
-  artifactKey: Guid(4fae0684d9b7d50469832c9896ec064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptableObjects/TreeGrowthTwoData.asset using Guid(4fae0684d9b7d50469832c9896ec064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '1e77d5dc7501d9cb86667e96a21685a1') in 0.001249 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpritesForTiles/TreeGrowth3.asset
+  artifactKey: Guid(8445c822d1e6c324f89d068ddc60c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpritesForTiles/TreeGrowth3.asset using Guid(8445c822d1e6c324f89d068ddc60c9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '31e44147005455cbd1d27deca3ce83a6') in 0.012659 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
